@@ -16,7 +16,7 @@ import youtube_dl
 #==============================================================================#
 botStart = time.time()
 #===============================================================================#
-print ("\n\n『✍тєαм вℓαςкςαт✍』\n")
+print ("\n\n ✍နপજדനัՁᏓӄี้ঘ✍\n")
 line = LINE('')
 #line = LINE('EDspzl4kP8jYiYpZvh47.WxbV6PkR6YP+CX/8r7IOTW.EeKLsrTYcXQe3tRiL6uKqFpfzfP+TCNIacqsnj0A+y0=')
 line.log("Auth Token : " + str(line.authToken))
