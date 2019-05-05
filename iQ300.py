@@ -243,7 +243,7 @@ backup = line.getProfile()
 backup.dispalyName = contact.displayName 
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
-squareChatMid='mdbd283c4f8e1840fbcecf1e0e0fd9288'
+squareChatMid='u85f20b0f0f3530349275159332f74882'
 
 mulai = time.time() 
 
