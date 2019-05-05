@@ -16,7 +16,7 @@ import youtube_dl
 #==============================================================================#
 botStart = time.time()
 #===============================================================================#
-print ("\n\n ✍နপજדനัՁᏓӄี้ঘ✍\n")
+print ("\n\n ผู้จัดทำ✍နপજדനัՁᏓӄี้ঘ✍และ⏤͟͟͞͞★ T̶̶K̶⚠️😈❄️\n")
 line = LINE('')
 #line = LINE('EDspzl4kP8jYiYpZvh47.WxbV6PkR6YP+CX/8r7IOTW.EeKLsrTYcXQe3tRiL6uKqFpfzfP+TCNIacqsnj0A+y0=')
 line.log("Auth Token : " + str(line.authToken))
@@ -30,9 +30,9 @@ Exc = [line]
 lineMID = line.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["uc1706fea92abeb2a7f731fbc47b8a8b7",lineMID]
-admin=['uc1706fea92abeb2a7f731fbc47b8a8b7',lineMID]
-adminMID="uc1706fea92abeb2a7f731fbc47b8a8b7"
+Family=["u85f20b0f0f3530349275159332f74882",lineMID]
+admin=['u85f20b0f0f3530349275159332f74882',lineMID]
+adminMID="u85f20b0f0f3530349275159332f74882"
 RfuFamily = RfuBot + Family
 msg_dict = {}
 msg_image={}
@@ -53,8 +53,8 @@ pson = {"kw":{}}
 
 #==============================================================================#
 settings = {
-    "anu": "แอบทมาย",
-    "anu2": "เดะจิ้มตาบอด",
+    "anu": "แอบทำไม",
+    "anu2": "เดะสี้ตาบอด",
     "autoAdd":False,
     "autoBlock":False,
     "autoJoin": True,
@@ -96,15 +96,15 @@ settings = {
     "unsendMessage":"",
     "changeGroupPicture": [],
     "changePictureProfile": False,
-    "Respontag":"อะแฮ่มแทคบ่อยๆจับถอดหมอยนะบอกเลย",
-    "ResponPM":"✍тєαм вℓαςкςαт✍",
-    "message":"✍тєαм вℓαςкςαт✍",
-    "comment":"✍тєαм вℓαςкςαт✍",
-    "Wc":"✍тєαм вℓαςкςαт✍",
-    "bye":"✍тєαм вℓαςкςαт✍",
-    "add":"✍тєαм вℓαςкςαт✍",
-    "kick":"✍тєαм вℓαςкςαт✍",
-    "c":"✍тєαм вℓαςкςαт✍",
+    "Respontag":"แทคแบบนี้อยากมีเรื่องหรืออยากมีลูก!",
+    "ResponPM":"✍",
+    "message":"✍",
+    "comment":"✍",
+    "Wc":"✍",
+    "bye":"✍",
+    "add":"✍",
+    "kick":"✍",
+    "c":"✍",
     "s":"",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -444,7 +444,7 @@ def myhelp():
     key = settings["s"]
     key = key.title()  
     myHelp = """╭━━━━━━━━━━━━━━━╮
-┃【✍тєαм вℓαςкςαт✍】
+┃【✍ชุดคำสั่ง✍】
 ┣━━━━━━━━━━━━━━━
 ┃✍┝➣ help
 ┃✍┝➣ help2
@@ -453,7 +453,7 @@ def myhelp():
 ┃✍┝➣ help5
 ┃✍┝➣ helpsiri
 ┣━━━━━━━━━━━━━━━
-┃•◈➣ คำสั่งที่ใช้บ่อยๆ ✍
+┃•◈➣ คำสั่ง ✍
 ┣━━━━━━━━━━━━━━━
 ┃✍┝➣ Me
 ┃✍┝➣ คท
@@ -463,7 +463,7 @@ def myhelp():
 ┃✍┝➣ รีบอท {สั่งบอทจะหลุด}
 ┃✍┝➣ ออน
 ┣━━━━━━━━━━━━━━━
-┃•◈➣ โหมดตั้งค่าตัวเรา✍
+┃•◈➣ โหมดตั้งค่า✍
 ┣━━━━━━━━━━━━━━━
 ┃✍┝➣ ข้อมูล
 ┃✍┝➣ ไอดี
@@ -506,12 +506,12 @@ def myhelp():
 ┃✍┝➣ ยูทูป [ข้อความ]
 ┃✍┝➣ ดึงวีดีโอ [ใส่เพลงที่จะดึง]
 ┣━━━━━━━━━━━━━━━
-╰━━{ 【✍тєαм вℓαςкςαт✍】 }"""
+╰━━{ 【✍ชีดคำสั่ง✍】 }"""
     return myHelp
 def listgrup():
     key = settings["s"]
     key = key.title()    
-    listGrup = """╭━━{ 【✍тєαм вℓαςкςαт✍】 }
+    listGrup = """╭━━{ 【✍ชุดคำสั่ง✍】 }
 ┣━━━━━━━━━━━━━━━
 ┃{ ✍โหมดคำสั่งแทค✍ }
 ┣━━━━━━━━━━━━━━━
@@ -533,12 +533,12 @@ def listgrup():
 ┃✍┝➣ ดึงหมด สต.
 ┃✍┝➣ เตะดำ
 ┣━━━━━━━━━━━━━━━
-╰━━{ 【✍тєαм вℓαςкςαт✍】 }"""
+╰━━{ 【✍ชุดคำสั่ง✍】 }"""
     return listGrup
 def socmedia():
     key = settings["s"]
     key = key.title()  
-    socMedia = """╭━━{ 【✍тєαм вℓαςкςαт✍】 }
+    socMedia = """╭━━{ 【✍ชุดคำสั่ง✍】 }
 ┣━━━━━━━━━━━━━━━━━
 ┃{ ✍โหมดสดใส✍ }
 ┣━━━━━━━━━━━━━━━━━
@@ -581,12 +581,12 @@ def socmedia():
 ┃✍┝➣ ล้างคำห้ามพิม [ข้อความ]
 ┃✍┝➣ เชคคำห้ามพิม
 ┣━━━━━━━━━━━━━━━━━
-╰━━{ 【✍тєαм вℓαςкςαт✍】 }"""
+╰━━{ 【✍ชุดคำสั่ง✍】 }"""
     return socMedia
 def helpset():
     key = settings["s"]
     key = key.title()    
-    helpSet = """╭━━{ 【✍тєαм вℓαςкςαт✍】 }
+    helpSet = """╭━━{ 【✍ชุดคำสั่ง✍】 }
 ┣━━━━━━━━━━━━━━━━━
 ┃{ ✍โหมดคำสั่งตั้งค่า✍ }
 ┣━━━━━━━━━━━━━━━━━
@@ -657,13 +657,13 @@ def helpset():
 ┃✍┝➣ ประกาศ 
 ┃✍┝➣ ประกาศแชท: 
 ┣━━━━━━━━━━━━━━━━━
-╰━━{ 【✍тєαм вℓαςкςαт✍】 } """
+╰━━{ 【✍ชุดคำสั่ง✍】 } """
     return helpSet
 
 def helpsetting():
     key = settings["s"]
     key = key.title()   
-    helpSetting = """╭━━{ 【✍тєαм вℓαςкςαт✍】 }
+    helpSetting = """╭━━{ 【✍ชุดคำสั่ง✍】 }
 ┣━━━━━━━━━━━━━━━━━
 ┃    {✍ โหมดคำสั่งกลุ่ม✍}
 ┣━━━━━━━━━━━━━━━━━
@@ -705,11 +705,11 @@ def helpsetting():
 ┃✍┝➣ เปิดแสกน[เปิดดูคนอ่าน]
 ┃✍┝➣ ปิดแสกน [ปิดดูคนอ่าน]
 ┣━━━━━━━━━━━━━━━━━
-╰━━{【✍тєαм вℓαςкςαт✍】 }"""
+╰━━{【✍ชุดคำสั่ง✍】 }"""
     return helpSetting 
   
 def helpsiri():
-    helpSiri = """╭━━━{ 【✍тєαм вℓαςкςαт✍】 }
+    helpSiri = """╭━━━{ 【✍ชุดคำสั่ง✍】 }
 ┣━━━━━━━━━━━━━━━━
 ┃      {✍คำสั่งใช้งานบอทสิริ✍}
 ┃╭━━━━━━━━━━━━━━━
@@ -742,7 +742,7 @@ def helpsiri():
 ┃┝✍┝➣ /ล็อครูป
 ┃┝✍┝➣ /ล็อคเชิญ
 ┃╰━━━━━━━━━━━━━━━
-╰━━━{ 【✍тєαм вℓαςкςαт✍】 }"""
+╰━━━{ 【✍ชุดคำสั่ง✍】 }"""
     return helpSiri
     
 #==============================================================================#
@@ -1057,7 +1057,7 @@ def lineBot(op):
                     line.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)                   
                 elif text.lower() == 'speed':
                     start = time.time()
-                    line.sendMessage(to, "『✍тєαм вℓαςкςαт✍』")
+                    line.sendMessage(to, "『✍ความเร็ว..✍』")
                     elapsed_time = time.time() - start
                     line.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")
                 elif text.lower() == 'sp':
@@ -1135,25 +1135,24 @@ def lineBot(op):
                 elif text.lower() == 'เทส':
                     line.sendMessage(to, "กำลังโหลด:▒...0%")
                     line.sendMessage(to, "█▒... 10.0%")
-                    line.sendMessage(to, "██▒... 20.0%")
+                    line.sendMessage(to, "██▒... 25.0%")
                     line.sendMessage(to, "███▒... 30.0%")
-                    line.sendMessage(to, "████▒... 40.0%")
+                    line.sendMessage(to, "████▒... 48.4%")
                     line.sendMessage(to, "█████▒... 50.0%")
-                    line.sendMessage(to, "██████▒... 60.0%")
-                    line.sendMessage(to, "███████▒... 70.0%")
-                    line.sendMessage(to, "████████▒... 80.0%")
-                    line.sendMessage(to, "█████████▒... 90.0%")
+                    line.sendMessage(to, "██████▒... 66.6%")
+                    line.sendMessage(to, "███████▒... 850.0%")
+                    line.sendMessage(to, "████████▒... 99.9%")
                     line.sendMessage(to, "███████████..100.0%")
-                    line.sendMessage(to, "✍〘บอทยังอยู่จะท่านผู้ชม〙✍\n『✮ 【 ✍тєαм вℓαςкςαт✍ 】 ✮』")
+                    line.sendMessage(to, "ยังอยู่ไงไอ้ควาย 555+")
                 elif text.lower() == 'รีบอท':
                     line.sendMessage(to, "กำลังนับถอยหลัง 3 ถึง 1")
                     time.sleep(1)
-                    line.sendMessage(to, "3")
+                    line.sendMessage(to, "1")
                     time.sleep(1)
                     line.sendMessage(to, "2")
                     time.sleep(1)
-                    line.sendMessage(to, "1")
-                    line.sendMessage(to, "บอทรีสตาร์ทเรีบร้อยแล้ว^_^\n\n『✮ ✍тєαм вℓαςкςαт✍ ✮』")
+                    line.sendMessage(to, "3")
+                    line.sendMessage(to, "บอทรีสตาร์ทเรีบร้อยแล้ว^_^\n\n『✮ อ่านหาพ่อมีงอ่ะไปรับลิ้งกดใหม่ควาย! ✮』")
                     restartBot()
                 elif text.lower() == 'ข้อมูล':
                     try:
@@ -1164,14 +1163,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╭━━{【✍тєαм вℓαςкςαт✍】}"
+                        ret_ = "╭━━{【✍กลุ่ม✍】}"
                         ret_ += "\n┣✍➣ ชื่อ ═ {}".format(contact.displayName)
                         ret_ += "\n┣✍➣ กลุ่ม ═ {}".format(str(len(grouplist)))
                         ret_ += "\n┣✍➣ เพื่อน ═ {}".format(str(len(contactlist)))
                         ret_ += "\n┣✍➣ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n┣✍➣ สถานะ ═ {}".format(contact.statusMessage)
                         ret_ += "\n┣✍➣ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╰━━【✍тєαм вℓαςкςαт✍】"
+                        ret_ += "\n╰━━【✍กลุ่ม✍】"
                         line.sendMessage(to, str(ret_))
                         line.sendContact(to, lineMID)
                     except Exception as e:
@@ -1181,7 +1180,7 @@ def lineBot(op):
                     try:
                         tz = pytz.timezone("Asia/Jakarta")
                         timeNow = datetime.now(tz=tz)
-                        ret_ = "╭━━{【✍тєαм вℓαςкςαт✍】}\n┣━━━━━━━━━━━━━━━━━\n┃       [ ✍STATUS START✍ ]\n┣━━━━━━━━━━━━━━━━━"
+                        ret_ = "╭━━{【✍อ่านดูอย่าถามาก✍】}\n┣━━━━━━━━━━━━━━━━━\n┃       [ ✍STATUS START✍ ]\n┣━━━━━━━━━━━━━━━━━"
                         if settings["autoAdd"] == True: ret_ += "\n┣✍➣✔ ออโต้แอด [ on ]"
                         else: ret_ += "\n┣✍➣✖ ออโต้แอด [ off ] "
                         if settings["autoBlock"] == True: ret_ += "\n┣✍➣✔ ออโต้บล็อค [ on ]"
@@ -2346,7 +2345,7 @@ def lineBot(op):
                     line.sendMessage(msg.to,"💔:::⭐ ๘ ⭐:::💔")
                     line.sendMessage(msg.to,"💖:::⭐ ๙ ⭐:::💖")
                     line.sendMessage(msg.to,"✍:::⭐ 0 ⭐:::✍")
-                    line.sendMessage(msg.to,"「✮ 【 ✍тєαм вℓαςкςαт✍ 】 ✮」")                    
+                    line.sendMessage(msg.to,"「✮ 【 ✍นับเลขเองไม่เป็นไง?✍ 】 ✮」")                    
                                     
                 elif msg.text in ["นับสเปน"]:
                     line.sendMessage(msg.to,"❂➣-รอสักครู่...........")
@@ -2394,7 +2393,7 @@ def lineBot(op):
                     line.sendMessage(msg.to,"💔⭐  •Eight•  ⭐💔")
                     line.sendMessage(msg.to,"💖⭐ ••Nine•• ⭐💖")
                     line.sendMessage(msg.to,"✍⭐ ••Zero•• ⭐✍")
-                    line.sendMessage(msg.to,"✮ 【 ✍тєαм вℓαςкςαт✍ 】 ✮")
+                    line.sendMessage(msg.to,"✮ 【 ✍มึงโง่สินะ✍ 】 ✮")
 #-----------------------------------------------------------------------------------------------------------
                 elif msg.text in ["นับ"]:
                     line.sendMessage(msg.to,"❂➣-รอสักครู่...........")
@@ -2420,7 +2419,7 @@ def lineBot(op):
                     line.sendMessage(msg.to,"💔⭐8 •Delapan•8⭐💔")
                     line.sendMessage(msg.to,"💖⭐9 Sembilan 9⭐💖")
                     line.sendMessage(msg.to,"✍⭐0 ••••Nol•••• 0⭐✍")
-                    line.sendMessage(msg.to,"✮ 【 ✍тєαм вℓαςкςαт✍ 】 ✮" +datetime.today().strftime('%H:%M:%S')+ "™") 
+                    line.sendMessage(msg.to,"✮ 【 ✍บลาๆ✍ 】 ✮" +datetime.today().strftime('%H:%M:%S')+ "™") 
                     
                 elif msg.text in ["เอจังนับไฮโซ","นับไฮโซ"]:
                     line.sendMessage(msg.to,"✧••••••❂✯❂••••••✧\n💖💖[[[[[ 1 ]]]]]💖💖\n ••••• " +datetime.today().strftime('%H:%M:%S')+ " •••••")
@@ -2574,7 +2573,7 @@ def lineBot(op):
                     bc = msg.text.replace("ประกาศ ","")
                     gid = line.getGroupIdsJoined()
                     for i in gid:
-                        line.sendMessage(i,"[ ประกาศกลุ่ม ]\n\n"+bc+"\n\n 【 ✍тєαм вℓαςкςαт✍ 】")
+                        line.sendMessage(i,"[ ประกาศกลุ่ม ]\n\n"+bc+"\n\n 【 ✍ข้อความออโต้💙✍ 】")
                                          
                 elif msg.text.lower().startswith("ประกาศ: "):
                     sep = text.split(" ")
@@ -3016,13 +3015,13 @@ def lineBot(op):
                     RfuCctv['point'][msg.to] = msg.id
                     RfuCctv['sidermem'][msg.to] = ""
                     RfuCctv['cyduk'][msg.to]=True
-                    line.sendMessage(msg.to,"เปิดระบบแสกนคนอ่านอัตโนมัติ\n『✮ ✍тєαм вℓαςкςαт✍ ✮』")
+                    line.sendMessage(msg.to,"เปิดระบบแสกนคนอ่านอัตโนมัติ")
                 elif msg.text in ["ปิดแสกน"]:
                     if msg.to in RfuCctv['point']:
                         RfuCctv['cyduk'][msg.to]=False
                         line.sendText(msg.to, RfuCctv['sidermem'][msg.to])
                     else:
-                        line.sendMessage(msg.to, "ปิดระบบแสกนคนอ่านแล้ว\n『✮ ✍тєαм вℓαςкςαт✍ ✮』")
+                        line.sendMessage(msg.to, "ปิดระบบแสกนคนอ่านแล้ว")
                              
                 elif text.lower() == 'ของขวัญ':
                         line.sendGift(msg.to,'1002077','sticker')
@@ -3101,7 +3100,7 @@ def lineBot(op):
                     
                 elif msg.text.lower() == "รีเช็ต":
                     settings["s"] = ""
-                    settings["c"] = "『✍тєαм вℓαςкςαт✍』"
+                    settings["c"] = "『✍รอแปป✍』"
                     line.sendMessage(to, "[ Done ]")                       
 #==============================================================================#                    
                 elif msg.text.startswith("ตั้งแอด "):
@@ -3111,7 +3110,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["add"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\nตั้งข้อความตอบโต้เมื่อมีคนแอดแล้ว\n\n[ {} ]".format(str(spl)))
+                         line.sendMessage(msg.to, "ตั้งข้อความตอบโต้เมื่อมีคนแอดแล้ว\n\n[ {} ]".format(str(spl)))
                 elif msg.text.startswith("ตั้งคนเข้า "):
                   if msg._from in admin:
                      spl = msg.text.replace('ตั้งคนเข้า ','')
@@ -3119,7 +3118,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["Wc"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\nตั้งข้อความตอบโต้เมื่อมีคนเข้ากลุ่ม\n\n[ {} ]".format(str(spl)))  
+                         line.sendMessage(msg.to, "ตั้งข้อความตอบโต้เมื่อมีคนเข้ากลุ่ม\n\n[ {} ]".format(str(spl)))  
                 elif msg.text.startswith("ตั้งคนออก "):
                   if msg._from in admin:
                      spl = msg.text.replace('ตั้งคนออก ','')
@@ -3127,7 +3126,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["bye"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\nตั้งข้อความตอบโต้เมื่อมีคนเข้ากลุ่ม\n\n[ {} ]".format(str(spl)))  
+                         line.sendMessage(msg.to, "ตั้งข้อความตอบโต้เมื่อมีคนเข้ากลุ่ม\n\n[ {} ]".format(str(spl)))  
                 elif msg.text.startswith("ตั้งคนแทค "):
                   if msg._from in admin:
                      spl = msg.text.replace('ตั้งคนแทค ','')
@@ -3135,7 +3134,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["Respontag"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\nตั้งข้อความตอบโต้เมื่อมีคนแทคคุณในกลุ่ม\n\n[ {} ]".format(str(spl)))
+                         line.sendMessage(msg.to, "ตั้งข้อความตอบโต้เมื่อมีคนแทคคุณในกลุ่ม\n\n[ {} ]".format(str(spl)))
                 elif msg.text.startswith("ตั้งแทคแชท "):
                   if msg._from in admin:
                      spl = msg.text.replace('ตั้งแทคแชท ','')
@@ -3143,7 +3142,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["ResponPM"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\nตั้งข้อความตอบโต้แทคแชทแล้ว\n\n[ {} ]".format(str(spl)))
+                         line.sendMessage(msg.to, "ตั้งข้อความตอบโต้แทคแชทแล้ว\n\n[ {} ]".format(str(spl)))
                 elif msg.text.startswith("ตั้ง "):
                   if msg._from in admin:
                      spl = msg.text.replace('ตั้ง ','')
@@ -3151,7 +3150,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["s"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\n[ {} ]".format(str(spl)))       
+                         line.sendMessage(msg.to, "[ {} ]".format(str(spl)))       
                 elif msg.text.startswith("ตั้งผส "):
                   if msg._from in admin:
                      spl = msg.text.replace('ตั้งผส ','')
@@ -3159,7 +3158,7 @@ def lineBot(op):
                          line.sendMessage(msg.to, "ตั้งข้อความเรืยบร้อย")
                      else:
                          settings["c"] = spl
-                         line.sendMessage(msg.to, "『✍тєαм вℓαςкςαт✍』\n[ {} ]".format(str(spl)))                       
+                         line.sendMessage(msg.to, "[ {} ]".format(str(spl)))                       
                           
                 elif "บอกหมุด: " in msg.text.lower():
                     bctxt = msg.text.replace("บอกหมุด: ", "")
@@ -3278,38 +3277,38 @@ def lineBot(op):
                 elif msg.text.lower() == 'เปิดทักเตะ':
                         if settings["Nk"] == True:
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"เปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่ม...\n\n『✍тєαм вℓαςкςαт✍』")
+                                line.sendMessage(to,"เปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่ม...")
                         else:
                             settings["Nk"] = True
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"เปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่ม...\n\n『✍тєαм вℓαςкςαт✍』")
+                                line.sendMessage(to,"เปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่ม...")
                                 
                 elif msg.text.lower() == 'ปิดทักเตะ':
                         if settings["Nk"] == False:
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"ปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่มแล้ว..\n\n『✍тєαм вℓαςкςαт✍』")
+                                line.sendMessage(to,"ปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่มแล้ว..")
                         else:
                             settings["Nk"] = False
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"เปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่มแล้ว...\n\n『✍тєαм вℓαςкςαт✍』")
+                                line.sendMessage(to,"เปิดข้อความแจ้งเตือนเมื่อมีคนลบสมาชิกในกลุ่มแล้ว...")
 
                 elif msg.text.lower() == 'เปิดอ่านคท':
                         if settings["checkContact"] == True:
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"เปิดอ่านข้อความคอนแทคภายในห้อง...\n\n『✍тєαм вℓαςкςαт✍』", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
+                                line.sendMessage(to,"เปิดอ่านข้อความคอนแทคภายในห้อง...", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
                         else:
                             settings["checkContact"] = True
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"เปิดอ่านข้อความคอนแทคภายในห้อง....\n\n『✍тєαм вℓαςкςαт✍』", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
+                                line.sendMessage(to,"เปิดอ่านข้อความคอนแทคภายในห้อง....", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
                                 
                 elif msg.text.lower() == 'ปิดอ่านคท':
                         if settings["checkContact"] == False:
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"ปิดอ่านข้อความคอนแทคภายในห้อง...\n\n『✍тєαм вℓαςкςαт✍』", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
+                                line.sendMessage(to,"ปิดอ่านข้อความคอนแทคภายในห้อง...", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
                         else:
                             settings["checkContact"] = False
                             if settings["lang"] == "JP":
-                                line.sendMessage(to,"ปิดอ่านข้อความคอนแทคภายในห้อง....\n\n『✍тєαм вℓαςкςαт✍』", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
+                                line.sendMessage(to,"ปิดอ่านข้อความคอนแทคภายในห้อง....", contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+line.getContact(lineMID).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://line.me/ti/p/Rvv5zHBLDO'})
 
                 elif msg.text.lower() == 'เปิดแทค3':
                         if settings["delayMention"] == True:
@@ -3602,7 +3601,7 @@ def lineBot(op):
                             if "text" in msg.contentMetadata:
                                 text = "\n ข้อความโดยย่อ : {}".format(str(msg.contentMetadata["text"]))
                                 ret_ += text
-                            ret_ += "\n『✍тєαм вℓαςкςαт✍』"
+                            ret_ += "\n『ค ว ย』"
                             line.sendMessage(msg.to, (str(ret_)))
                         except:
                             line.sendMessage(msg.to, "เกิดข้อผิดะลาดในการเช็คโพสนี้")  
@@ -3913,10 +3912,10 @@ def lineBot(op):
             if settings ["Siri"] == True:
                 if msg.text in ["/เช็ค","/เช็คตั้งค่า","/ตั้งค่า"]:
                     line.sendText(msg.to,"Set:status")
-                    line.sendText(msg.to,"เช็คการตั้งค่าบอทสิริ")                     
+                    line.sendText(msg.to,"บอทน่ารัดจัง")                     
             if settings ["Siri"] == True:
                 if msg.text in ["/ตั้งแอดรอง","/ตั้งรอง","/ตั้งแอดรอง"]:
-                    line.sendText(msg.to,"設定:予備作者変更")
+                    line.sendText(msg.to,"ตั้งว่า ควายโต")
                     line.sendText(msg.to,"ลงคำสั่งแล้ว ส่ง คท. แอดรองลงครับ") 
             if settings ["Siri"] == True:
                 if msg.text in ["/แอด","/@","/@1"]:
@@ -4259,7 +4258,7 @@ def lineBot(op):
             except:
                 pass
         if op.type == 55:
-            print ("555")
+            print ("คนแก้หล่อ")
             try:
                 if op.param1 in read['readPoint']:
                     if op.param2 in read['readMember'][op.param1]:
